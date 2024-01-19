@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Cormorant Garamond', serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+      /* page-1 header portion start */
+header {
+    height: 90vh;
+    background-image: url(./images/img1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0px 1000px rgba(0, 0, 0, 0.2);
+}
+nav li {
+    list-style: none;
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+nav a:hover{
+    color: #000;
+}
+nav {
+    max-width: 1100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo {
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+#info {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#info h1 {
+    color: #fff;
+    font-size: 45px;
+}
+#info h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+#btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(82, 82, 214);
+    font-size: 11px;
+    padding: 12px 25px;
+    border-radius: 3px;
+} 
+#btn:hover {
+    color: black;
+    background-color: #fff;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+                 /* page-1 header portion end */
+
+                 /* page-2 image-section start */
+.text-wrap {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.text-wrap h2 {
+    font-size: 23px;
+}
+.text-wrap p {
+    padding: 25px 30px 0px 30px;
+    font-size: 18px;
+    
+}
+.text-wrap hr {
+    width: 150px;
+    border: 1px solid rgb(32, 32, 196);
+    margin: 50px auto;
+}
+#img-one {
+    max-height: 324px;
+    width: 30%;
+    background-image: url(./images/img2.jpg);
+    background-size: cover;
+    flex-direction: row;
+}
+#img-two {
+    height: 324px;
+    width: 70%;
+    background-image: url(./images/img3.jpg);
+    background-size: cover;
+}
+#img-three {
+    height: 324px;
+    width: 70%;
+    background-image: url(./images/img4.jpg);
+    background-size: cover;
+}
+#img-four {
+    height: 324px;
+    width: 30%;
+    background-image: url(./images/img5.jpg);
+    background-size: cover;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+.image-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 70px;
+}
+                         /* page-2 image-section end */
+
+                           /* page-3 logo-section start */
+.text-info {
+    width: 100%;
+}
+.bg-gray {
+    background-color: #f0f0f0;
+}
+.logo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.logos {
+    text-align: center;
+    width: 220px;
+}
+.logos h2{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.logos p {
+    font-size: 11px;
+}
+                                /* page-3 logo-section end */
+
+                                /* page-4 testimonial-section start */
+.other-info {
+    width: 100%;
+}
+.outer-divv {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.testimonial {
+    text-align: center;
+}
+.testimonial h2 {
+    font-size: 23px;
+}
+.testimonial p {
+    font-size: 23px;
+    padding: 0px 40px;
+}
+.testimonial hr {
+    width: 150px;
+    border: 1px solid rgb(32, 32, 196);
+    margin: 50px auto 0 auto;
+}
+.testimonial cite {
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+                            /* page-4 testimonial-section end */
+                            
+                             /* page-5 learn-more-section start */
+.learn-more {
+    width: 100%;
+}
+.subscribe {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.learn p {
+    padding-top: 0px;
+}
+.learn h4 {
+    font-size: 16px;
+}
+.learn hr {
+    margin: 50px auto 0 auto;
+}
+#input {
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+}
+#sbmit-btn {
+    color: #fff;
+    background-color: rgb(82, 82, 214);
+    font-size: 8px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-style: none;
+}
+#sbmit-btn:hover {
+    color: black;
+    background-color: #fff;
+}
+                             /* page-5 learn-more-section end */
+
+                              /*  footer-section start */
+footer {
+    background-color: #526D82;
+}
+#outer-div {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#outer-div span {
+    font-size: 13px;
+    color: #fff;
+}
+.fa-brands {
+    color: #fff;
+}
+                           /*  footer-section end */ 
