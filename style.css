@@ -205,6 +205,7 @@ header .container {
 .testimonial p {
     font-size: 22px;
     color: #8D8D8A;
+    line-height: 1.5;
 }
 .testimonial hr {
     width: 150px;
