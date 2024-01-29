@@ -14,6 +14,7 @@ header {
     /* height: 90vh; */
     background-image: url(./images/img1.jpeg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0px 1000px rgba(0, 0, 0, 0.2);
 }
@@ -103,13 +104,14 @@ header .container {
 .text-wrap hr {
     width: 250px;
     border: 1px solid rgb(32, 32, 196);
-    margin: 50px auto;
+    margin: 60px auto 20px auto;
 }
 #img-one {
     max-height: 324px;
     width: 30%;
     background-image: url(./images/img2.jpg);
     background-size: cover;
+    background-position: center;
     flex-direction: row;
 }
 #img-two {
@@ -117,17 +119,20 @@ header .container {
     width: 70%;
     background-image: url(./images/img3.jpg);
     background-size: cover;
+    background-position: center;
 }
 #img-three {
     height: 324px;
     width: 70%;
     background-image: url(./images/img4.jpg);
+    background-position: center;
     background-size: cover;
 }
 #img-four {
     height: 324px;
     width: 30%;
     background-image: url(./images/img5.jpg);
+    background-position: center;
     background-size: cover;
 }
 .container-img {
@@ -145,22 +150,19 @@ header .container {
                          /* page-2 image-section end */
 
                            /* page-3 logo-section start */
-.text-info {
-    width: 100%;
-}
 .bg-gray {
     background-color: #F5F5F5;
 }
 .logo-info {
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    padding-bottom: 100px;
+    gap: 120px;
+    padding-bottom: 120px;
 }
 .logo-wrap {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
     flex-wrap: wrap;
 }
 .logos {
@@ -184,9 +186,6 @@ header .container {
                                 /* page-3 logo-section end */
 
                                 /* page-4 testimonial-section start */
-.other-info {
-    width: 100%;
-}
 .testimonial-div {
     max-width: 750px;
     margin: 0 auto;
@@ -221,37 +220,30 @@ header .container {
                             /* page-4 testimonial-section end */
                             
                              /* page-5 learn-more-section start */
-.learn-more {
-    width: 100%;
-}
 .subscribe {
     padding-bottom: 60px;
     display: flex;
     justify-content: center;
 }
-.learn p {
-    padding-top: 0px;
-    line-height: 1.5;
-}
-.learn h4 {
+.text-wrap h4 {
     font-size: 20px;
     color: rgb(90, 89, 89);
     font-weight: 600;
 }
-.learn hr {
-    margin: 50px auto 0 auto;
+.learn p {
+    padding-top: 0px;
 }
 #input {
     height: 50px;
-    width: 300px;
+    width: 390px;
     margin-right: 10px;
 }
 #sbmit-btn {
     color: #fff;
     background-color: #3751B6;
-    font-size: 10px;
-    font-weight: bolder;
-    padding: 19px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 30px;
     border-radius: 3px;
     border-style: none;
 }
